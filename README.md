@@ -20,3 +20,5 @@ sudo docker exec -it aa bash
 sudo docker exec -it bb bash
 sudo docker exec -it cc bash
 
+# Resetting the experiment and deleting containers:
+Use docker stop and docker rm commands to delete container
