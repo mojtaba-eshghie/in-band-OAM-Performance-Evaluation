@@ -1,4 +1,4 @@
-# in-band-OAM-Performance-Evaluation
+# in-band OAM Performance Evaluation
 This repository contains the files for the performance evaluation of i-OAM research effort (Telecom Paristech, University of Leige, Cisco)
 
 
