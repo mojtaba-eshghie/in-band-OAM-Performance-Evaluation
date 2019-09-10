@@ -27,10 +27,11 @@ for name in CONTAINERS:
 
 
 # 2. attaching and running VPP
-RUN_VPP = 'sudo docker exec {container_name} vpp -c /home/docker-experiment/configurations/{configuration_name}'
+RUN_VPP = 'sudo docker exec {container_name} vpp -c /home/github-docker-experiment/in-band-OAM-Performance-Evaluation/configurations/{configuration_name}'
 for name in CONTAINERS:
     configuration_name = name[0] + '-startup.conf'
     command = RUN_VPP.format(container_name=name, configuration_name=configuration_name)
     print(command)
     result = commands.getstatusoutput(command)
+    print(result)
 
