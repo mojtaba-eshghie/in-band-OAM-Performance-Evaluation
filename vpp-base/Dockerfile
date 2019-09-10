@@ -7,6 +7,11 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 		gnupg \
 		iproute2 \
 		iputils-ping \
+		linux-tools-common \
+		linux-tools-4.4.0-161-generic \
+		linux-cloud-tools-4.4.0-161-generic \
+		nano \
+		linux-tools-generic \
  	&& rm -rf /var/lib/apt/lists/*
 
 ARG REPO
